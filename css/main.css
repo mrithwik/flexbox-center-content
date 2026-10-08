@@ -4,14 +4,20 @@ html {
   background-size: cover;
   background-position: center;
   /* Add a height of 100% */
+  height: 100%;
+  /* width: 100%; */
 }
 
 body {
   /* Add a height of 100% */
+  height: 100%;
 }
 
 .wrapper {
   /* Add display: flex; and the Flexbox properties to center the "content" */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   height: 100%;
   width: 100%;
@@ -19,6 +25,9 @@ body {
 
 .content {
   /* Add display: flex; and the Flexbox properties to center the "content" */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   /* This is a fallback for the translucent background for older browsers */
   background: #222;
